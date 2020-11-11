@@ -1,0 +1,65 @@
+HETATM    1  PA  GCP A 180       7.044  32.964  91.203  1.00 38.66      F    P  
+HETATM    2  PB  GCP A 180       9.554  33.800  92.157  1.00 42.62      F    P  
+HETATM    3  PG  GCP A 180      11.891  32.333  92.941  1.00 56.11      F    P  
+HETATM    4  C5' GCP A 180       5.373  32.352  93.082  1.00 30.04      F    C  
+HETATM    5  O5' GCP A 180       5.628  33.074  91.901  1.00 27.43      F    O  
+HETATM    6  C4' GCP A 180       3.920  32.446  93.394  1.00 34.55      F    C  
+HETATM    7  O4' GCP A 180       3.579  33.831  93.272  1.00 36.66      F    O  
+HETATM    8  C3' GCP A 180       3.020  31.695  92.432  1.00 30.84      F    C  
+HETATM    9  O3' GCP A 180       2.119  30.872  93.147  1.00 36.25      F    O  
+HETATM   10  C2' GCP A 180       2.192  32.767  91.762  1.00 37.66      F    C  
+HETATM   11  O2' GCP A 180       0.863  32.365  91.601  1.00 36.14      F    O  
+HETATM   12  C1' GCP A 180       2.296  33.932  92.715  1.00 28.54      F    C  
+HETATM   13  N1  GCP A 180      -0.481  38.015  91.467  1.00 36.85      F    N  
+HETATM   14  O1A GCP A 180       7.334  31.513  90.949  1.00 29.79      F    O1-
+HETATM   15  O1B GCP A 180       9.790  33.378  90.768  1.00 42.06      F    O  
+HETATM   16  O1G GCP A 180      12.536  31.865  91.524  1.00 45.43      F    O  
+HETATM   17  C2  GCP A 180      -0.836  36.906  92.187  1.00 27.02      F    C  
+HETATM   18  N2  GCP A 180      -2.092  36.899  92.661  1.00 31.78      F    N  
+HETATM   19  O2A GCP A 180       7.166  33.951  90.089  1.00 41.23      F    O  
+HETATM   20  O2B GCP A 180       9.759  35.231  92.609  1.00 32.55      F    O  
+HETATM   21  O2G GCP A 180      12.623  33.571  93.404  1.00 50.97      F    O  
+HETATM   22  C3B GCP A 180      10.272  32.562  92.898  1.00 50.02      F    C  
+HETATM   23  N3  GCP A 180      -0.026  35.879  92.437  1.00 38.06      F    N  
+HETATM   24  O3A GCP A 180       8.049  33.449  92.357  1.00 26.19      F    O  
+HETATM   25  O3G GCP A 180      12.332  31.272  93.993  1.00 50.13      F    O  
+HETATM   26  C4  GCP A 180       1.183  36.048  91.879  1.00 28.88      F    C  
+HETATM   27  C5  GCP A 180       1.614  37.100  91.097  1.00 27.42      F    C  
+HETATM   28  C6  GCP A 180       0.739  38.187  90.853  1.00 33.41      F    C  
+HETATM   29  O6  GCP A 180       0.983  39.252  90.288  1.00 37.77      F    O  
+HETATM   30  N7  GCP A 180       2.965  36.933  90.755  1.00 32.12      F    N  
+HETATM   31  C8  GCP A 180       3.298  35.789  91.317  1.00 25.33      F    C  
+HETATM   32  N9  GCP A 180       2.265  35.203  92.013  1.00 25.19      F    N  
+CONECT    1    5   14   19   24
+CONECT    2   15   20   24   22
+CONECT    3   16   21   22   25
+CONECT    4    6    5
+CONECT    5    1    4
+CONECT    6    4    7    8
+CONECT    7    6   12
+CONECT    8    6    9   10
+CONECT    9    8
+CONECT   10    8   11   12
+CONECT   11   10
+CONECT   12    7   10   32
+CONECT   13   17   28
+CONECT   14    1
+CONECT   15    2
+CONECT   16    3
+CONECT   17   13   18   23
+CONECT   18   17
+CONECT   19    1
+CONECT   20    2
+CONECT   21    3
+CONECT   22    3    2
+CONECT   23   17   26
+CONECT   24    2    1
+CONECT   25    3
+CONECT   26   23   27   32
+CONECT   27   26   28   30
+CONECT   28   27   13   29
+CONECT   29   28
+CONECT   30   27   31
+CONECT   31   30   32
+CONECT   32   12   26   31
+END
